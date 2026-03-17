@@ -73,19 +73,27 @@ Currently in **alpha phase** — focused on the early part of IPL 2026 (post-meg
 ## Project Structure
 
 (Current alpha layout – files mostly in root)
-
 ipl-predictor-2026/
-├── match_schedule.csv              # IPL 2026 fixtures (partial or full)
-├── player_scores.csv               # Calculated player ratings
-├── predicted_playing_xi.csv        # Generated XIs for each match
-├── venue_conditions.csv            # Venue-specific factors
-├── calculate_player_scores.py      # Compute player scores
-├── generate_playing_xi.py          # Main realistic XI generator
-├── generate_realistic_xi.py        # Variant with more form/randomness
-├── predict_match.py                # Single match predictor
-├── simulate_season.py              # Monte Carlo season simulator
-├── ipl_squad_scraper.py            # (Optional) Fetch latest squads
-└── README.md
+├── data/
+│   ├── best_playing_xi_2026.csv                # Best XI variant output
+│   ├── best_playing_xi_realistic_2026.csv      # Realistic variant output
+│   ├── match_predictions.csv                   # Predicted match winners/probabilities
+│   ├── match_schedule.csv                      # IPL 2026 fixtures (partial/full)
+│   ├── new_player_db_2026.csv                  # Player database / input data
+│   ├── player_scores.csv                       # Calculated player ratings
+│   ├── points_table_prediction.csv             # Simulated season points table
+│   ├── predicted_playing_xi.csv                # Generated XIs for each match
+│   └── venue_conditions.csv                    # Venue-specific factors (dew, pitch, home adv.)
+├── scripts/
+│   ├── generate_best_xi.py                     # Best-score based XI generator
+│   ├── generate_playing_xi.py                  # Main realistic XI generator
+│   ├── generate_realistic_xi.py                # Variant with more form/randomness
+│   ├── ipl_squad_scraper.py                    # (Optional) Fetch/update squads from web
+│   ├── locked_players.py                       # Handles locked/retained players
+│   ├── predict_match.py                        # Single match prediction logic
+│   └── simulate_season.py                      # Monte Carlo season simulation
+└── README.md                                   # This file
+
 
 ---
 
