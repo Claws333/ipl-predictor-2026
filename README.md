@@ -73,27 +73,28 @@ Currently in **alpha phase** — focused on the early part of IPL 2026 (post-meg
 ## Project Structure
 
 (Current alpha layout – files mostly in root)
-ipl-predictor-2026/
-├── data/
-│   ├── best_playing_xi_2026.csv                # Best XI variant output
-│   ├── best_playing_xi_realistic_2026.csv      # Realistic variant output
-│   ├── match_predictions.csv                   # Predicted match winners/probabilities
-│   ├── match_schedule.csv                      # IPL 2026 fixtures (partial/full)
-│   ├── new_player_db_2026.csv                  # Player database / input data
-│   ├── player_scores.csv                       # Calculated player ratings
-│   ├── points_table_prediction.csv             # Simulated season points table
-│   ├── predicted_playing_xi.csv                # Generated XIs for each match
-│   └── venue_conditions.csv                    # Venue-specific factors (dew, pitch, home adv.)
-├── scripts/
-│   ├── generate_best_xi.py                     # Best-score based XI generator
-│   ├── generate_playing_xi.py                  # Main realistic XI generator
-│   ├── generate_realistic_xi.py                # Variant with more form/randomness
-│   ├── ipl_squad_scraper.py                    # (Optional) Fetch/update squads from web
-│   ├── locked_players.py                       # Handles locked/retained players
-│   ├── predict_match.py                        # Single match prediction logic
-│   └── simulate_season.py                      # Monte Carlo season simulation
-└── README.md                                   # This file
 
+├── 2026_first_phase/
+│   ├── data/                          # (or root files)
+│   │   ├── best_playing_xi_2026.csv          # Best-score variant output
+│   │   ├── best_playing_xi_realistic_2026.csv # Realistic XI output
+│   │   ├── match_predictions.csv             # Predicted winners/probabilities
+│   │   ├── match_schedule.csv                # IPL 2026 fixtures (phase 1)
+│   │   ├── new_player_db_2026.csv            # 2026 player database
+│   │   ├── player_scores.csv                 # Rated players with Role/Overseas/Form
+│   │   ├── points_table_prediction.csv       # Projected points table
+│   │   ├── predicted_playing_xi.csv          # Generated XIs
+│   │   └── venue_conditions.csv              # Dew/pitch/home advantage
+│   └── scripts/
+│       ├── generate_best_xi.py               # Score-based XI generator
+│       ├── generate_playing_xi.py            # Main realistic generator
+│       ├── generate_realistic_xi.py          # Form/random variant
+│       ├── ipl_squad_scraper.py              # Squad fetch/update (optional)
+│       ├── locked_players.py                 # Retained/locked players
+│       ├── predict_match.py                  # Match prediction logic
+│       └── simulate_season.py                # Season simulation (Monte Carlo ready)
+└── README.md                                 # This file
+text
 
 ---
 
