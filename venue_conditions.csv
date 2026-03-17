@@ -1,0 +1,11 @@
+Venue,DewFactor,BattingBoost,SpinBoost,PaceBoost
+Chennai,0.3,0.9,1.2,0.9
+Mumbai,0.9,1.1,0.9,1.1
+Hyderabad,0.7,1.05,1.0,1.0
+Kolkata,0.6,1.0,1.15,0.95
+Bangalore,0.5,1.2,0.9,1.0
+Delhi,0.4,1.05,1.0,1.0
+Lucknow,0.3,0.95,1.2,0.9
+Jaipur,0.4,1.0,1.1,1.0
+Ahmedabad,0.6,1.1,1.0,1.0
+Mohali,0.7,1.1,0.9,1.1
