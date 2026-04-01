@@ -1,0 +1,71 @@
+match_no,date,phase,team1,team2,venue,rulebased_w1,rulebased_w2,rulebased_winner,lr_w1,rf_w1,gb_w1,consensus_w1,consensus_w2,consensus_winner
+1,28 Mar,League,RCB,SRH,"M Chinnaswamy Stadium, Bengaluru",52,48,RCB,64,49,28,48,52,SRH
+2,29 Mar,League,MI,KKR,"Wankhede Stadium, Mumbai",54,46,MI,72,58,65,62,38,MI
+3,30 Mar,League,RR,CSK,"Barsapara Cricket Stadium, Guwahati",49,51,CSK,28,44,28,37,63,CSK
+4,31 Mar,League,PBKS,GT,"PCA Stadium, New Chandigarh",51,49,PBKS,46,47,72,54,46,PBKS
+5,01 Apr,League,LSG,DC,"BRSABV Ekana Cricket Stadium, Lucknow",52,48,LSG,59,53,28,48,52,DC
+6,02 Apr,League,KKR,SRH,"Eden Gardens, Kolkata",54,46,KKR,72,66,72,66,34,KKR
+7,03 Apr,League,CSK,PBKS,"MA Chidambaram Stadium, Chennai",57,43,CSK,72,69,72,68,32,CSK
+8,04 Apr,League,DC,MI,"Arun Jaitley Stadium, Delhi",51,49,DC,57,28,28,41,59,MI
+9,04 Apr,League,GT,RR,"Narendra Modi Stadium, Ahmedabad",54,46,GT,72,66,72,66,34,GT
+10,05 Apr,League,SRH,LSG,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",54,46,SRH,72,63,72,65,35,SRH
+11,05 Apr,League,RCB,CSK,"M Chinnaswamy Stadium, Bengaluru",53,47,RCB,36,34,28,38,62,CSK
+12,06 Apr,League,KKR,PBKS,"Eden Gardens, Kolkata",55,45,KKR,72,72,72,68,32,KKR
+13,07 Apr,League,RR,MI,"Barsapara Cricket Stadium, Guwahati",49,51,MI,28,45,72,48,52,MI
+14,08 Apr,League,DC,GT,"Arun Jaitley Stadium, Delhi",51,49,DC,58,46,28,46,54,GT
+15,09 Apr,League,KKR,LSG,"Eden Gardens, Kolkata",55,45,KKR,72,72,72,68,32,KKR
+16,10 Apr,League,RR,RCB,"Sawai Mansingh Stadium, Jaipur",52,48,RR,65,50,28,49,51,RCB
+17,11 Apr,League,PBKS,SRH,"PCA Stadium, New Chandigarh",51,49,PBKS,48,46,72,54,46,PBKS
+18,11 Apr,League,CSK,DC,"MA Chidambaram Stadium, Chennai",56,44,CSK,72,69,72,67,33,CSK
+19,12 Apr,League,LSG,GT,"BRSABV Ekana Cricket Stadium, Lucknow",51,49,LSG,50,47,32,45,55,GT
+20,12 Apr,League,MI,RCB,"Wankhede Stadium, Mumbai",53,47,MI,72,68,72,66,34,MI
+21,13 Apr,League,SRH,RR,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",53,47,SRH,72,61,72,64,36,SRH
+22,14 Apr,League,CSK,KKR,"MA Chidambaram Stadium, Chennai",54,46,CSK,72,51,28,51,49,CSK
+23,15 Apr,League,RCB,LSG,"M Chinnaswamy Stadium, Bengaluru",55,45,RCB,67,61,72,64,36,RCB
+24,16 Apr,League,MI,PBKS,"Wankhede Stadium, Mumbai",55,45,MI,72,72,72,68,32,MI
+25,17 Apr,League,GT,KKR,"Narendra Modi Stadium, Ahmedabad",53,47,GT,71,50,28,50,50,GT
+26,18 Apr,League,RCB,DC,"M Chinnaswamy Stadium, Bengaluru",55,45,RCB,70,61,72,64,36,RCB
+27,19 Apr,League,SRH,CSK,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",53,47,SRH,72,59,72,64,36,SRH
+28,20 Apr,League,KKR,RR,"Eden Gardens, Kolkata",54,46,KKR,72,63,72,65,35,KKR
+29,21 Apr,League,PBKS,LSG,"PCA Stadium, New Chandigarh",52,48,PBKS,51,54,60,54,46,PBKS
+30,22 Apr,League,GT,MI,"Narendra Modi Stadium, Ahmedabad",53,47,GT,72,49,28,50,50,GT
+31,23 Apr,League,SRH,DC,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",54,46,SRH,72,63,72,65,35,SRH
+32,24 Apr,League,LSG,RR,"BRSABV Ekana Cricket Stadium, Lucknow",52,48,LSG,55,49,28,46,54,RR
+33,25 Apr,League,MI,CSK,"Wankhede Stadium, Mumbai",54,46,MI,72,64,72,66,34,MI
+34,26 Apr,League,RCB,GT,"M Chinnaswamy Stadium, Bengaluru",54,46,RCB,62,51,28,49,51,GT
+35,27 Apr,League,DC,PBKS,"Arun Jaitley Stadium, Delhi",53,47,DC,67,60,72,63,37,DC
+36,28 Apr,League,RR,SRH,"Sawai Mansingh Stadium, Jaipur",52,48,RR,68,49,28,49,51,SRH
+37,29 Apr,League,GT,CSK,"Narendra Modi Stadium, Ahmedabad",52,48,GT,66,39,28,46,54,CSK
+38,30 Apr,League,LSG,KKR,"BRSABV Ekana Cricket Stadium, Lucknow",51,49,LSG,42,28,28,37,63,KKR
+39,01 May,League,DC,RCB,"Arun Jaitley Stadium, Delhi",52,48,DC,57,47,28,46,54,RCB
+40,02 May,League,PBKS,RR,"HPCA Stadium, Dharamsala",49,51,RR,28,43,28,37,63,RR
+41,03 May,League,MI,SRH,"Wankhede Stadium, Mumbai",53,47,MI,72,63,72,65,35,MI
+42,04 May,League,GT,RCB,"Narendra Modi Stadium, Ahmedabad",54,46,GT,72,61,72,65,35,GT
+43,05 May,League,RR,DC,"Sawai Mansingh Stadium, Jaipur",53,47,RR,72,63,72,65,35,RR
+44,06 May,League,CSK,LSG,"MA Chidambaram Stadium, Chennai",56,44,CSK,72,64,72,66,34,CSK
+45,07 May,League,KKR,MI,"Eden Gardens, Kolkata",53,47,KKR,69,49,72,61,39,KKR
+46,08 May,League,SRH,PBKS,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",54,46,SRH,72,63,72,65,35,SRH
+47,09 May,League,RCB,RR,"M Chinnaswamy Stadium, Bengaluru",54,46,RCB,67,60,72,63,37,RCB
+48,10 May,League,DC,KKR,"Arun Jaitley Stadium, Delhi",51,49,DC,50,28,28,39,61,KKR
+49,11 May,League,MI,GT,"Wankhede Stadium, Mumbai",54,46,MI,72,63,72,65,35,MI
+50,11 May,League,CSK,RCB,"MA Chidambaram Stadium, Chennai",55,45,CSK,72,68,72,67,33,CSK
+51,12 May,League,LSG,SRH,"BRSABV Ekana Cricket Stadium, Lucknow",51,49,LSG,52,46,72,55,45,LSG
+52,13 May,League,KKR,DC,"Eden Gardens, Kolkata",55,45,KKR,72,72,72,68,32,KKR
+53,14 May,League,PBKS,MI,"HPCA Stadium, Dharamsala",48,52,MI,28,28,28,33,67,MI
+54,15 May,League,RR,GT,"Sawai Mansingh Stadium, Jaipur",52,48,RR,38,40,28,40,60,GT
+55,15 May,League,CSK,SRH,"MA Chidambaram Stadium, Chennai",54,46,CSK,72,52,28,52,48,CSK
+56,16 May,League,RCB,PBKS,"M Chinnaswamy Stadium, Bengaluru",55,45,RCB,71,61,72,65,35,RCB
+57,17 May,League,DC,LSG,"Arun Jaitley Stadium, Delhi",53,47,DC,63,60,72,62,38,DC
+58,17 May,League,GT,KKR,"Narendra Modi Stadium, Ahmedabad",53,47,GT,71,50,28,50,50,GT
+59,18 May,League,MI,DC,"Wankhede Stadium, Mumbai",56,44,MI,72,69,72,67,33,MI
+60,18 May,League,SRH,KKR,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",52,48,SRH,28,32,28,35,65,KKR
+61,19 May,League,RR,PBKS,"Sawai Mansingh Stadium, Jaipur",54,46,RR,72,63,72,65,35,RR
+62,20 May,League,LSG,MI,"BRSABV Ekana Cricket Stadium, Lucknow",51,49,LSG,49,46,72,54,46,LSG
+63,20 May,League,CSK,GT,"MA Chidambaram Stadium, Chennai",54,46,CSK,72,62,72,65,35,CSK
+64,21 May,League,KKR,RCB,"Eden Gardens, Kolkata",54,46,KKR,72,64,72,66,34,KKR
+65,22 May,League,DC,SRH,"Arun Jaitley Stadium, Delhi",51,49,DC,60,47,72,58,42,DC
+66,22 May,League,PBKS,CSK,"HPCA Stadium, Dharamsala",48,52,CSK,28,41,66,46,54,CSK
+67,23 May,League,GT,LSG,"Narendra Modi Stadium, Ahmedabad",55,45,GT,72,63,72,66,34,GT
+68,24 May,League,MI,RR,"Wankhede Stadium, Mumbai",55,45,MI,72,63,72,66,34,MI
+69,24 May,League,SRH,RCB,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",52,48,SRH,72,63,72,65,35,SRH
+70,24 May,League,KKR,CSK,"Eden Gardens, Kolkata",53,47,KKR,72,62,72,65,35,KKR

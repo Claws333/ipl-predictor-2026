@@ -1,0 +1,152 @@
+"""IPL 2026 - Teams, Strengths, Venues, Head-to-Head data"""
+
+TEAMS = {
+    "MI":   {"name": "Mumbai Indians",                    "short": "MI",   "color": "#004BA0",
+             "home": "Wankhede Stadium, Mumbai",           "home_adv": 1.12},
+    "CSK":  {"name": "Chennai Super Kings",               "short": "CSK",  "color": "#F9CD05",
+             "home": "MA Chidambaram Stadium, Chennai",    "home_adv": 1.14},
+    "RCB":  {"name": "Royal Challengers Bengaluru",       "short": "RCB",  "color": "#C8102E",
+             "home": "M Chinnaswamy Stadium, Bengaluru",   "home_adv": 1.08},
+    "KKR":  {"name": "Kolkata Knight Riders",             "short": "KKR",  "color": "#3A225D",
+             "home": "Eden Gardens, Kolkata",              "home_adv": 1.10},
+    "SRH":  {"name": "Sunrisers Hyderabad",               "short": "SRH",  "color": "#FF6B00",
+             "home": "Rajiv Gandhi Intl Cricket Stadium, Hyderabad", "home_adv": 1.09},
+    "DC":   {"name": "Delhi Capitals",                    "short": "DC",   "color": "#00A0E3",
+             "home": "Arun Jaitley Stadium, Delhi",        "home_adv": 1.07},
+    "PBKS": {"name": "Punjab Kings",                      "short": "PBKS", "color": "#ED1C24",
+             "home": "PCA Stadium, New Chandigarh",           "home_adv": 1.06},
+    "RR":   {"name": "Rajasthan Royals",                  "short": "RR",   "color": "#2D5BA1",
+             "home": "Sawai Mansingh Stadium, Jaipur",     "home_adv": 1.08},
+    "GT":   {"name": "Gujarat Titans",                    "short": "GT",   "color": "#1B2A5A",
+             "home": "Narendra Modi Stadium, Ahmedabad",   "home_adv": 1.11},
+    "LSG":  {"name": "Lucknow Super Giants",              "short": "LSG",  "color": "#5BA0D0",
+             "home": "BRSABV Ekana Cricket Stadium, Lucknow", "home_adv": 1.08},
+}
+
+# Batting, bowling, allround, form — all out of 100
+TEAM_STRENGTH = {
+    "MI":   {"batting": 88, "bowling": 84, "allround": 82, "form": 85},
+    "CSK":  {"batting": 86, "bowling": 83, "allround": 85, "form": 80},
+    "RCB":  {"batting": 90, "bowling": 76, "allround": 78, "form": 82},
+    "KKR":  {"batting": 84, "bowling": 86, "allround": 84, "form": 88},
+    "SRH":  {"batting": 87, "bowling": 85, "allround": 80, "form": 83},
+    "DC":   {"batting": 80, "bowling": 82, "allround": 78, "form": 75},
+    "PBKS": {"batting": 82, "bowling": 79, "allround": 76, "form": 74},
+    "RR":   {"batting": 83, "bowling": 81, "allround": 80, "form": 78},
+    "GT":   {"batting": 81, "bowling": 85, "allround": 83, "form": 82},
+    "LSG":  {"batting": 79, "bowling": 80, "allround": 79, "form": 76},
+}
+
+VENUES = {
+    "Wankhede Stadium, Mumbai": {
+        "city": "Mumbai", "pitch_type": "Batting paradise", "avg_first": 185,
+        "dew_factor": "High", "home_favor": "Strong",
+        "pitch_bias": {"MI": 1.05, "RCB": 1.08, "SRH": 1.04, "PBKS": 1.03},
+        "notes": "Short boundaries, damp evenings. Dew heavily favours the chasing side.",
+    },
+    "MA Chidambaram Stadium, Chennai": {
+        "city": "Chennai", "pitch_type": "Spin-friendly", "avg_first": 168,
+        "dew_factor": "Medium", "home_favor": "Very Strong",
+        "pitch_bias": {"CSK": 1.07, "GT": 1.04, "RR": 1.03, "DC": 1.02},
+        "notes": "Slow, dry surface. Spinners dominate. Massive home crowd effect for CSK.",
+    },
+    "M Chinnaswamy Stadium, Bengaluru": {
+        "city": "Bengaluru", "pitch_type": "Batting paradise", "avg_first": 192,
+        "dew_factor": "Low", "home_favor": "Moderate",
+        "pitch_bias": {"RCB": 1.08, "MI": 1.05, "SRH": 1.03},
+        "notes": "Smallest ground in IPL. Batters feast — 200+ totals are common.",
+    },
+    "Eden Gardens, Kolkata": {
+        "city": "Kolkata", "pitch_type": "Balanced", "avg_first": 174,
+        "dew_factor": "Medium", "home_favor": "Strong",
+        "pitch_bias": {"KKR": 1.04},
+        "notes": "Good pace and bounce. Evening dew sets in. Balanced contest.",
+    },
+    "Rajiv Gandhi Intl Cricket Stadium, Hyderabad": {
+        "city": "Hyderabad", "pitch_type": "Batting-friendly", "avg_first": 178,
+        "dew_factor": "High", "home_favor": "Strong",
+        "pitch_bias": {"SRH": 1.04, "MI": 1.03, "RCB": 1.05},
+        "notes": "High scores expected. Significant dew favours chasers in night matches.",
+    },
+    "Arun Jaitley Stadium, Delhi": {
+        "city": "Delhi", "pitch_type": "Balanced", "avg_first": 172,
+        "dew_factor": "Low", "home_favor": "Moderate",
+        "pitch_bias": {"DC": 1.03},
+        "notes": "Good carry for pacers. Dusty pitch aids spinners later.",
+    },
+    "HPCA Stadium, Dharamsala": {
+        "city": "Dharamsala", "pitch_type": "Pace-friendly", "avg_first": 165,
+        "dew_factor": "None", "home_favor": "Moderate",
+        "pitch_bias": {"KKR": 1.03, "DC": 1.02, "GT": 1.02},
+        "notes": "Hilly conditions, swing and seam. Bowler-friendly with cool mountain air.",
+    },
+    "PCA Stadium, Mohali": {
+        "city": "Mohali", "pitch_type": "Batting-friendly", "avg_first": 179,
+        "dew_factor": "Low", "home_favor": "Moderate",
+        "pitch_bias": {"PBKS": 1.04, "MI": 1.03},
+        "notes": "Good batting surface. Quick outfield. Great for stroke-makers.",
+    },
+    "Sawai Mansingh Stadium, Jaipur": {
+        "city": "Jaipur", "pitch_type": "Batting-friendly", "avg_first": 176,
+        "dew_factor": "Low", "home_favor": "Moderate",
+        "pitch_bias": {"RR": 1.04, "RCB": 1.03},
+        "notes": "Compact ground. Spinners effective in afternoon games.",
+    },
+    "Narendra Modi Stadium, Ahmedabad": {
+        "city": "Ahmedabad", "pitch_type": "Spin-friendly", "avg_first": 170,
+        "dew_factor": "Medium", "home_favor": "Strong",
+        "pitch_bias": {"GT": 1.06, "CSK": 1.04, "RR": 1.03},
+        "notes": "World largest stadium. Dry surface suits spinners. Massive home noise.",
+    },
+
+    "Barsapara Cricket Stadium, Guwahati": {
+        "city": "Guwahati", "pitch_type": "Batting-friendly", "avg_first": 172,
+        "dew_factor": "Medium", "home_favor": "Moderate",
+        "pitch_bias": {"RR": 1.03},
+        "notes": "Compact ground in the northeast. Lively atmosphere, good batting conditions.",
+    },
+    "PCA Stadium, New Chandigarh": {
+        "city": "New Chandigarh", "pitch_type": "Batting-friendly", "avg_first": 178,
+        "dew_factor": "Low", "home_favor": "Moderate",
+        "pitch_bias": {"PBKS": 1.04, "MI": 1.03},
+        "notes": "Modern stadium. Good batting surface with quick outfield.",
+    },
+    "BRSABV Ekana Cricket Stadium, Lucknow": {
+        "city": "Lucknow", "pitch_type": "Balanced", "avg_first": 173,
+        "dew_factor": "Medium", "home_favor": "Moderate",
+        "pitch_bias": {"LSG": 1.04},
+        "notes": "Good pace early. Dew significant in evening matches.",
+    },
+}
+
+# Historical head-to-head: tuple (t1_win_pct, t2_win_pct)
+HEAD_TO_HEAD = {
+    ("MI",   "CSK"):  (52, 48),
+    ("CSK",  "MI"):   (48, 52),
+    ("MI",   "KKR"):  (55, 45),
+    ("KKR",  "MI"):   (45, 55),
+    ("RCB",  "CSK"):  (44, 56),
+    ("CSK",  "RCB"):  (56, 44),
+    ("KKR",  "SRH"):  (58, 42),
+    ("SRH",  "KKR"):  (42, 58),
+    ("MI",   "SRH"):  (53, 47),
+    ("SRH",  "MI"):   (47, 53),
+    ("GT",   "RR"):   (55, 45),
+    ("RR",   "GT"):   (45, 55),
+    ("MI",   "RCB"):  (58, 42),
+    ("RCB",  "MI"):   (42, 58),
+    ("CSK",  "GT"):   (54, 46),
+    ("GT",   "CSK"):  (46, 54),
+    ("KKR",  "RCB"):  (52, 48),
+    ("RCB",  "KKR"):  (48, 52),
+    ("DC",   "SRH"):  (50, 50),
+    ("CSK",  "DC"):   (62, 38),
+    ("MI",   "DC"):   (60, 40),
+    ("KKR",  "DC"):   (57, 43),
+    ("CSK",  "PBKS"): (63, 37),
+    ("KKR",  "PBKS"): (56, 44),
+    ("CSK",  "RR"):   (60, 40),
+    ("KKR",  "RR"):   (53, 47),
+    ("MI",   "GT"):   (54, 46),
+    ("SRH",  "RCB"):  (52, 48),
+}

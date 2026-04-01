@@ -1,0 +1,11 @@
+team,name,avg_wins,avg_losses,avg_points,avg_nrr,playoff_pct,title_pct
+KKR,Kolkata Knight Riders,7.6,6.4,15.3,0.112,50.1,12.6
+SRH,Sunrisers Hyderabad,7.5,6.5,15.1,0.005,47.3,12.8
+MI,Mumbai Indians,7.3,6.7,14.7,0.294,46.6,12.4
+CSK,Chennai Super Kings,7.2,6.8,14.5,0.198,45.1,11.8
+GT,Gujarat Titans,7.1,6.9,14.2,0.072,41.7,10.7
+RCB,Royal Challengers Bengaluru,7.0,7.0,14.1,0.035,40.6,10.2
+RR,Rajasthan Royals,6.9,7.1,13.8,-0.105,37.4,9.6
+DC,Delhi Capitals,6.8,7.2,13.7,-0.157,36.2,8.2
+LSG,Lucknow Super Giants,6.3,7.7,12.6,-0.187,28.9,6.3
+PBKS,Punjab Kings,6.2,7.8,12.3,-0.318,26.1,5.3

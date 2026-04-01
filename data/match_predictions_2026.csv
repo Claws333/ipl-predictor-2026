@@ -1,0 +1,71 @@
+match_no,date,phase,team1,team2,venue,pitch_type,dew_factor,avg_first_inn,win_prob_t1,win_prob_t2,predicted_winner,margin,key_factors
+1,28 Mar,League,RCB,SRH,"M Chinnaswamy Stadium, Bengaluru",Batting paradise,Low,192,52,48,RCB,close,Home advantage -> RCB | Pitch (Batting paradise) -> RCB | Pitch (Batting paradise) -> SRH
+2,29 Mar,League,MI,KKR,"Wankhede Stadium, Mumbai",Batting paradise,High,185,54,46,MI,moderate,Home advantage -> MI | Pitch (Batting paradise) -> MI | Dew (High) -> KKR | H2H history (55% MI)
+3,30 Mar,League,RR,CSK,"Barsapara Cricket Stadium, Guwahati",Batting-friendly,Medium,172,49,51,CSK,close,Pitch (Batting-friendly) -> RR | Dew (Medium) -> CSK
+4,31 Mar,League,PBKS,GT,"PCA Stadium, New Chandigarh",Batting-friendly,Low,178,51,49,PBKS,close,Home advantage -> PBKS | Pitch (Batting-friendly) -> PBKS
+5,01 Apr,League,LSG,DC,"BRSABV Ekana Cricket Stadium, Lucknow",Balanced,Medium,173,52,48,LSG,close,Home advantage -> LSG | Pitch (Balanced) -> LSG | Dew (Medium) -> DC
+6,02 Apr,League,KKR,SRH,"Eden Gardens, Kolkata",Balanced,Medium,174,54,46,KKR,moderate,Home advantage -> KKR | Pitch (Balanced) -> KKR | Dew (Medium) -> SRH | H2H history (58% KKR)
+7,03 Apr,League,CSK,PBKS,"MA Chidambaram Stadium, Chennai",Spin-friendly,Medium,168,57,43,CSK,moderate,Home advantage -> CSK | Pitch (Spin-friendly) -> CSK | Dew (Medium) -> PBKS | H2H history (63% CSK)
+8,04 Apr,League,DC,MI,"Arun Jaitley Stadium, Delhi",Balanced,Low,172,51,49,DC,close,Home advantage -> DC | Pitch (Balanced) -> DC
+9,04 Apr,League,GT,RR,"Narendra Modi Stadium, Ahmedabad",Spin-friendly,Medium,170,54,46,GT,moderate,Home advantage -> GT | Pitch (Spin-friendly) -> GT | Pitch (Spin-friendly) -> RR | Dew (Medium) -> RR | H2H history (55% GT)
+10,05 Apr,League,SRH,LSG,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",Batting-friendly,High,178,54,46,SRH,moderate,Home advantage -> SRH | Pitch (Batting-friendly) -> SRH | Dew (High) -> LSG
+11,05 Apr,League,RCB,CSK,"M Chinnaswamy Stadium, Bengaluru",Batting paradise,Low,192,53,47,RCB,close,Home advantage -> RCB | Pitch (Batting paradise) -> RCB | H2H history (44% RCB)
+12,06 Apr,League,KKR,PBKS,"Eden Gardens, Kolkata",Balanced,Medium,174,55,45,KKR,moderate,Home advantage -> KKR | Pitch (Balanced) -> KKR | Dew (Medium) -> PBKS | H2H history (56% KKR)
+13,07 Apr,League,RR,MI,"Barsapara Cricket Stadium, Guwahati",Batting-friendly,Medium,172,49,51,MI,close,Pitch (Batting-friendly) -> RR | Dew (Medium) -> MI
+14,08 Apr,League,DC,GT,"Arun Jaitley Stadium, Delhi",Balanced,Low,172,51,49,DC,close,Home advantage -> DC | Pitch (Balanced) -> DC
+15,09 Apr,League,KKR,LSG,"Eden Gardens, Kolkata",Balanced,Medium,174,55,45,KKR,moderate,Home advantage -> KKR | Pitch (Balanced) -> KKR | Dew (Medium) -> LSG
+16,10 Apr,League,RR,RCB,"Sawai Mansingh Stadium, Jaipur",Batting-friendly,Low,176,52,48,RR,close,Home advantage -> RR | Pitch (Batting-friendly) -> RR | Pitch (Batting-friendly) -> RCB
+17,11 Apr,League,PBKS,SRH,"PCA Stadium, New Chandigarh",Batting-friendly,Low,178,51,49,PBKS,close,Home advantage -> PBKS | Pitch (Batting-friendly) -> PBKS
+18,11 Apr,League,CSK,DC,"MA Chidambaram Stadium, Chennai",Spin-friendly,Medium,168,56,44,CSK,moderate,Home advantage -> CSK | Pitch (Spin-friendly) -> CSK | Pitch (Spin-friendly) -> DC | Dew (Medium) -> DC | H2H history (62% CSK)
+19,12 Apr,League,LSG,GT,"BRSABV Ekana Cricket Stadium, Lucknow",Balanced,Medium,173,51,49,LSG,close,Home advantage -> LSG | Pitch (Balanced) -> LSG | Dew (Medium) -> GT
+20,12 Apr,League,MI,RCB,"Wankhede Stadium, Mumbai",Batting paradise,High,185,53,47,MI,close,Home advantage -> MI | Pitch (Batting paradise) -> MI | Pitch (Batting paradise) -> RCB | Dew (High) -> RCB | H2H history (58% MI)
+21,13 Apr,League,SRH,RR,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",Batting-friendly,High,178,53,47,SRH,close,Home advantage -> SRH | Pitch (Batting-friendly) -> SRH | Dew (High) -> RR
+22,14 Apr,League,CSK,KKR,"MA Chidambaram Stadium, Chennai",Spin-friendly,Medium,168,54,46,CSK,moderate,Home advantage -> CSK | Pitch (Spin-friendly) -> CSK | Dew (Medium) -> KKR
+23,15 Apr,League,RCB,LSG,"M Chinnaswamy Stadium, Bengaluru",Batting paradise,Low,192,55,45,RCB,moderate,Home advantage -> RCB | Pitch (Batting paradise) -> RCB
+24,16 Apr,League,MI,PBKS,"Wankhede Stadium, Mumbai",Batting paradise,High,185,55,45,MI,moderate,Home advantage -> MI | Pitch (Batting paradise) -> MI | Pitch (Batting paradise) -> PBKS | Dew (High) -> PBKS
+25,17 Apr,League,GT,KKR,"Narendra Modi Stadium, Ahmedabad",Spin-friendly,Medium,170,53,47,GT,close,Home advantage -> GT | Pitch (Spin-friendly) -> GT | Dew (Medium) -> KKR
+26,18 Apr,League,RCB,DC,"M Chinnaswamy Stadium, Bengaluru",Batting paradise,Low,192,55,45,RCB,moderate,Home advantage -> RCB | Pitch (Batting paradise) -> RCB
+27,19 Apr,League,SRH,CSK,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",Batting-friendly,High,178,53,47,SRH,close,Home advantage -> SRH | Pitch (Batting-friendly) -> SRH | Dew (High) -> CSK
+28,20 Apr,League,KKR,RR,"Eden Gardens, Kolkata",Balanced,Medium,174,54,46,KKR,moderate,Home advantage -> KKR | Pitch (Balanced) -> KKR | Dew (Medium) -> RR | H2H history (53% KKR)
+29,21 Apr,League,PBKS,LSG,"PCA Stadium, New Chandigarh",Batting-friendly,Low,178,52,48,PBKS,close,Home advantage -> PBKS | Pitch (Batting-friendly) -> PBKS
+30,22 Apr,League,GT,MI,"Narendra Modi Stadium, Ahmedabad",Spin-friendly,Medium,170,53,47,GT,close,Home advantage -> GT | Pitch (Spin-friendly) -> GT | Dew (Medium) -> MI
+31,23 Apr,League,SRH,DC,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",Batting-friendly,High,178,54,46,SRH,moderate,Home advantage -> SRH | Pitch (Batting-friendly) -> SRH | Dew (High) -> DC
+32,24 Apr,League,LSG,RR,"BRSABV Ekana Cricket Stadium, Lucknow",Balanced,Medium,173,52,48,LSG,close,Home advantage -> LSG | Pitch (Balanced) -> LSG | Dew (Medium) -> RR
+33,25 Apr,League,MI,CSK,"Wankhede Stadium, Mumbai",Batting paradise,High,185,54,46,MI,moderate,Home advantage -> MI | Pitch (Batting paradise) -> MI | Dew (High) -> CSK | H2H history (52% MI)
+34,26 Apr,League,RCB,GT,"M Chinnaswamy Stadium, Bengaluru",Batting paradise,Low,192,54,46,RCB,moderate,Home advantage -> RCB | Pitch (Batting paradise) -> RCB
+35,27 Apr,League,DC,PBKS,"Arun Jaitley Stadium, Delhi",Balanced,Low,172,53,47,DC,close,Home advantage -> DC | Pitch (Balanced) -> DC
+36,28 Apr,League,RR,SRH,"Sawai Mansingh Stadium, Jaipur",Batting-friendly,Low,176,52,48,RR,close,Home advantage -> RR | Pitch (Batting-friendly) -> RR
+37,29 Apr,League,GT,CSK,"Narendra Modi Stadium, Ahmedabad",Spin-friendly,Medium,170,52,48,GT,close,Home advantage -> GT | Pitch (Spin-friendly) -> GT | Pitch (Spin-friendly) -> CSK | Dew (Medium) -> CSK | H2H history (46% GT)
+38,30 Apr,League,LSG,KKR,"BRSABV Ekana Cricket Stadium, Lucknow",Balanced,Medium,173,51,49,LSG,close,Home advantage -> LSG | Pitch (Balanced) -> LSG | Dew (Medium) -> KKR
+39,01 May,League,DC,RCB,"Arun Jaitley Stadium, Delhi",Balanced,Low,172,52,48,DC,close,Home advantage -> DC | Pitch (Balanced) -> DC
+40,02 May,League,PBKS,RR,"HPCA Stadium, Dharamsala",Pace-friendly,None,165,49,51,RR,close,
+41,03 May,League,MI,SRH,"Wankhede Stadium, Mumbai",Batting paradise,High,185,53,47,MI,close,Home advantage -> MI | Pitch (Batting paradise) -> MI | Pitch (Batting paradise) -> SRH | Dew (High) -> SRH | H2H history (53% MI)
+42,04 May,League,GT,RCB,"Narendra Modi Stadium, Ahmedabad",Spin-friendly,Medium,170,54,46,GT,moderate,Home advantage -> GT | Pitch (Spin-friendly) -> GT | Dew (Medium) -> RCB
+43,05 May,League,RR,DC,"Sawai Mansingh Stadium, Jaipur",Batting-friendly,Low,176,53,47,RR,close,Home advantage -> RR | Pitch (Batting-friendly) -> RR
+44,06 May,League,CSK,LSG,"MA Chidambaram Stadium, Chennai",Spin-friendly,Medium,168,56,44,CSK,moderate,Home advantage -> CSK | Pitch (Spin-friendly) -> CSK | Dew (Medium) -> LSG
+45,07 May,League,KKR,MI,"Eden Gardens, Kolkata",Balanced,Medium,174,53,47,KKR,close,Home advantage -> KKR | Pitch (Balanced) -> KKR | Dew (Medium) -> MI | H2H history (45% KKR)
+46,08 May,League,SRH,PBKS,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",Batting-friendly,High,178,54,46,SRH,moderate,Home advantage -> SRH | Pitch (Batting-friendly) -> SRH | Dew (High) -> PBKS
+47,09 May,League,RCB,RR,"M Chinnaswamy Stadium, Bengaluru",Batting paradise,Low,192,54,46,RCB,moderate,Home advantage -> RCB | Pitch (Batting paradise) -> RCB
+48,10 May,League,DC,KKR,"Arun Jaitley Stadium, Delhi",Balanced,Low,172,51,49,DC,close,Home advantage -> DC | Pitch (Balanced) -> DC
+49,11 May,League,MI,GT,"Wankhede Stadium, Mumbai",Batting paradise,High,185,54,46,MI,moderate,Home advantage -> MI | Pitch (Batting paradise) -> MI | Dew (High) -> GT | H2H history (54% MI)
+50,11 May,League,CSK,RCB,"MA Chidambaram Stadium, Chennai",Spin-friendly,Medium,168,55,45,CSK,moderate,Home advantage -> CSK | Pitch (Spin-friendly) -> CSK | Dew (Medium) -> RCB | H2H history (56% CSK)
+51,12 May,League,LSG,SRH,"BRSABV Ekana Cricket Stadium, Lucknow",Balanced,Medium,173,51,49,LSG,close,Home advantage -> LSG | Pitch (Balanced) -> LSG | Dew (Medium) -> SRH
+52,13 May,League,KKR,DC,"Eden Gardens, Kolkata",Balanced,Medium,174,55,45,KKR,moderate,Home advantage -> KKR | Pitch (Balanced) -> KKR | Dew (Medium) -> DC | H2H history (57% KKR)
+53,14 May,League,PBKS,MI,"HPCA Stadium, Dharamsala",Pace-friendly,None,165,48,52,MI,close,
+54,15 May,League,RR,GT,"Sawai Mansingh Stadium, Jaipur",Batting-friendly,Low,176,52,48,RR,close,Home advantage -> RR | Pitch (Batting-friendly) -> RR | H2H history (45% RR)
+55,15 May,League,CSK,SRH,"MA Chidambaram Stadium, Chennai",Spin-friendly,Medium,168,54,46,CSK,moderate,Home advantage -> CSK | Pitch (Spin-friendly) -> CSK | Dew (Medium) -> SRH
+56,16 May,League,RCB,PBKS,"M Chinnaswamy Stadium, Bengaluru",Batting paradise,Low,192,55,45,RCB,moderate,Home advantage -> RCB | Pitch (Batting paradise) -> RCB
+57,17 May,League,DC,LSG,"Arun Jaitley Stadium, Delhi",Balanced,Low,172,53,47,DC,close,Home advantage -> DC | Pitch (Balanced) -> DC
+58,17 May,League,GT,KKR,"Narendra Modi Stadium, Ahmedabad",Spin-friendly,Medium,170,53,47,GT,close,Home advantage -> GT | Pitch (Spin-friendly) -> GT | Dew (Medium) -> KKR
+59,18 May,League,MI,DC,"Wankhede Stadium, Mumbai",Batting paradise,High,185,56,44,MI,moderate,Home advantage -> MI | Pitch (Batting paradise) -> MI | Dew (High) -> DC | H2H history (60% MI)
+60,18 May,League,SRH,KKR,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",Batting-friendly,High,178,52,48,SRH,close,Home advantage -> SRH | Pitch (Batting-friendly) -> SRH | Dew (High) -> KKR | H2H history (42% SRH)
+61,19 May,League,RR,PBKS,"Sawai Mansingh Stadium, Jaipur",Batting-friendly,Low,176,54,46,RR,moderate,Home advantage -> RR | Pitch (Batting-friendly) -> RR
+62,20 May,League,LSG,MI,"BRSABV Ekana Cricket Stadium, Lucknow",Balanced,Medium,173,51,49,LSG,close,Home advantage -> LSG | Pitch (Balanced) -> LSG | Dew (Medium) -> MI
+63,20 May,League,CSK,GT,"MA Chidambaram Stadium, Chennai",Spin-friendly,Medium,168,54,46,CSK,moderate,Home advantage -> CSK | Pitch (Spin-friendly) -> CSK | Pitch (Spin-friendly) -> GT | Dew (Medium) -> GT | H2H history (54% CSK)
+64,21 May,League,KKR,RCB,"Eden Gardens, Kolkata",Balanced,Medium,174,54,46,KKR,moderate,Home advantage -> KKR | Pitch (Balanced) -> KKR | Dew (Medium) -> RCB | H2H history (52% KKR)
+65,22 May,League,DC,SRH,"Arun Jaitley Stadium, Delhi",Balanced,Low,172,51,49,DC,close,Home advantage -> DC | Pitch (Balanced) -> DC | H2H history (50% DC)
+66,22 May,League,PBKS,CSK,"HPCA Stadium, Dharamsala",Pace-friendly,None,165,48,52,CSK,close,
+67,23 May,League,GT,LSG,"Narendra Modi Stadium, Ahmedabad",Spin-friendly,Medium,170,55,45,GT,moderate,Home advantage -> GT | Pitch (Spin-friendly) -> GT | Dew (Medium) -> LSG
+68,24 May,League,MI,RR,"Wankhede Stadium, Mumbai",Batting paradise,High,185,55,45,MI,moderate,Home advantage -> MI | Pitch (Batting paradise) -> MI | Dew (High) -> RR
+69,24 May,League,SRH,RCB,"Rajiv Gandhi Intl Cricket Stadium, Hyderabad",Batting-friendly,High,178,52,48,SRH,close,Home advantage -> SRH | Pitch (Batting-friendly) -> SRH | Pitch (Batting-friendly) -> RCB | Dew (High) -> RCB | H2H history (52% SRH)
+70,24 May,League,KKR,CSK,"Eden Gardens, Kolkata",Balanced,Medium,174,53,47,KKR,close,Home advantage -> KKR | Pitch (Balanced) -> KKR | Dew (Medium) -> CSK
